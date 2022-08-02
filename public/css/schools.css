@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+*
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+.school-card {
+    width: 250px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 50px auto;
+    background: #fafafa;
+}
+
+
+.school-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background: #f0f0f0;
+}
+
+.school-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.school-details {
+    padding: 20px;
+}
+
+.school-catagory {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.school-details h4 a {
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.school-details h4 a:hover {
+    color: #fbb72c;
+}
+
+.school-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 1px;
+    color: #999;
+}
+
+
